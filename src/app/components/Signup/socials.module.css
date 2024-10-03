@@ -1,0 +1,12 @@
+.socials {
+	display: flex;
+	height: 2rem;
+	width: 80%;
+	align-items: center;
+	justify-content: space-evenly;
+	margin: 1.5rem 0px;
+}
+
+.image {
+	cursor: pointer;
+}

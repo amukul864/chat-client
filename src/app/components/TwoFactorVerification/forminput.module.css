@@ -1,0 +1,121 @@
+.horizontal2 {
+	display: flex;
+	width: 35vw;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.input {
+	height: 3rem;
+	width: 35vw;
+	margin: 1rem 0 0 0;
+	border: 2px black solid;
+	border-radius: 8px;
+	padding: 1rem;
+	font-size: large;
+	background: transparent;
+	color: black;
+}
+
+.input2 {
+	height: 3rem;
+	width: 16.5vw;
+	margin: 1rem 0 0 0;
+	border: 2px black solid;
+	border-radius: 8px;
+	padding: 1rem;
+	font-size: large;
+	background: transparent;
+	color: black;
+}
+
+.input::placeholder {
+	color: black;
+	text-align: center;
+}
+
+.input2::placeholder {
+	color: black;
+	text-align: center;
+}
+
+.logbutton {
+	width: 25vw;
+	margin: 1rem 0 0.5rem 0;
+	font-size: large;
+	background: #71001c;
+	background-image: -webkit-linear-gradient(top, #71001c, #a5455b);
+	background-image: -moz-linear-gradient(top, #71001c, #a5455b);
+	background-image: -ms-linear-gradient(top, #71001c, #a5455b);
+	background-image: -o-linear-gradient(top, #71001c, #a5455b);
+	background-image: linear-gradient(to bottom, #71001c, #a5455b);
+	-webkit-border-radius: 8;
+	-moz-border-radius: 8;
+	border-radius: 8px;
+	color: #ffffff;
+	font-size: 20px;
+	padding: 0.7rem;
+	text-decoration: none;
+	cursor: pointer;
+	border: none;
+}
+
+.button {
+	min-width: 10vw;
+	margin: 2px 0 0 0;
+	font-size: 14px;
+	background: #71001c;
+	background-image: -webkit-linear-gradient(top, #71001c, #a5455b);
+	background-image: -moz-linear-gradient(top, #71001c, #a5455b);
+	background-image: -ms-linear-gradient(top, #71001c, #a5455b);
+	background-image: -o-linear-gradient(top, #71001c, #a5455b);
+	background-image: linear-gradient(to bottom, #71001c, #a5455b);
+	-webkit-border-radius: 4;
+	-moz-border-radius: 4;
+	border-radius: 4px;
+	color: #ffffff;
+	padding: 4px;
+	text-decoration: none;
+	cursor: pointer;
+	border: none;
+}
+
+.logbutton:hover {
+	background: #d40035;
+	background-image: -webkit-linear-gradient(top, #d40035, #eb6786);
+	background-image: -moz-linear-gradient(top, #d40035, #eb6786);
+	background-image: -ms-linear-gradient(top, #d40035, #eb6786);
+	background-image: -o-linear-gradient(top, #d40035, #eb6786);
+	background-image: linear-gradient(to bottom, #d40035, #eb6786);
+	text-decoration: none;
+}
+
+.image {
+	margin: 0.75rem 0;
+}
+
+@media only screen and (max-width: 1000px) {
+	.input {
+		width: 70vw;
+	}
+
+	.input2 {
+		width: 33vw;
+	}
+
+	.horizontal2 {
+		width: 70vw;
+	}
+
+	.checkUsernameButton {
+		width: 25vw;
+	}
+
+	.logbutton {
+		width: 50vw;
+	}
+
+	.button {
+		min-width: 25vw;
+	}
+}

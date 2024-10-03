@@ -1,0 +1,232 @@
+.form {
+	min-height: 80vh;
+	width: 85vw;
+	background-color: #e7648b;
+	display: flex;
+	box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.5),
+		0 6px 20px 0 rgba(255, 255, 255, 0.8);
+}
+
+.leftform {
+	width: 60%;
+	background-color: black;
+	display: flex;
+	flex-direction: column;
+	background-color: transparent;
+	align-items: center;
+}
+
+.rightform {
+	width: 40%;
+	background-color: blue;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-image: linear-gradient(
+		to right bottom,
+		#ff7799,
+		#ff89a6,
+		#ff9ab2,
+		#ffabbf,
+		#ffbbcb
+	);
+}
+
+.maintext {
+	font-weight: 800;
+	font-size: 2.5rem;
+	color: black;
+	padding: 0.5rem;
+}
+
+.maintext2 {
+	font-weight: 800;
+	font-size: 2rem;
+	color: white;
+	padding: 2px 0.5rem;
+}
+
+.maintext3 {
+	font-weight: 600;
+	font-size: 1rem;
+	color: rgb(41, 0, 0);
+	padding: 2px 0.5rem;
+	margin-bottom: 4px;
+}
+
+.maintext4 {
+	font-weight: 600;
+	font-size: 1.6rem;
+	color: rgb(41, 0, 0);
+	padding: 0.5rem;
+}
+
+.logo {
+	width: 100%;
+	height: 15%;
+}
+
+.signbutton {
+	margin: 8px 0 0 0;
+	background: #71001c;
+	background-image: -webkit-linear-gradient(top, #71001c, #a5455b);
+	background-image: -moz-linear-gradient(top, #71001c, #a5455b);
+	background-image: -ms-linear-gradient(top, #71001c, #a5455b);
+	background-image: -o-linear-gradient(top, #71001c, #a5455b);
+	background-image: linear-gradient(to bottom, #71001c, #a5455b);
+	-webkit-border-radius: 60;
+	-moz-border-radius: 60;
+	border-radius: 60px;
+	color: #ffffff;
+	font-size: 1rem;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+	width: 50%;
+	border: none;
+}
+
+.signbutton:hover {
+	background: #d40035;
+	background-image: -webkit-linear-gradient(top, #d40035, #eb6786);
+	background-image: -moz-linear-gradient(top, #d40035, #eb6786);
+	background-image: -ms-linear-gradient(top, #d40035, #eb6786);
+	background-image: -o-linear-gradient(top, #d40035, #eb6786);
+	background-image: linear-gradient(to bottom, #d40035, #eb6786);
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.inputform {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.socials {
+	display: flex;
+	height: 2rem;
+	width: 80%;
+	align-items: center;
+	justify-content: center;
+	margin: 1.5rem 0px;
+}
+
+.horizontal {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.horizontal2 {
+	display: flex;
+	width: 35vw;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.rule {
+	height: 1px;
+	background-color: black;
+	width: 15vw;
+	margin: 0 4px;
+}
+
+.input {
+	height: 3rem;
+	width: 35vw;
+	margin: 1rem 0 0 0;
+	border: 2px black solid;
+	border-radius: 8px;
+	padding: 1rem;
+	font-size: large;
+	background: transparent;
+	color: black;
+}
+
+.input2 {
+	height: 3rem;
+	width: 16.5vw;
+	margin: 1rem 0 0 0;
+	border: 2px black solid;
+	border-radius: 8px;
+	padding: 1rem;
+	font-size: large;
+	background: transparent;
+	color: black;
+}
+
+.input::placeholder {
+	color: black;
+	text-align: center;
+}
+
+.input2::placeholder {
+	color: black;
+	text-align: center;
+}
+
+.logbutton {
+	width: 25vw;
+	margin: 1rem 0 0.5rem 0;
+	font-size: large;
+	background: #71001c;
+	background-image: -webkit-linear-gradient(top, #71001c, #a5455b);
+	background-image: -moz-linear-gradient(top, #71001c, #a5455b);
+	background-image: -ms-linear-gradient(top, #71001c, #a5455b);
+	background-image: -o-linear-gradient(top, #71001c, #a5455b);
+	background-image: linear-gradient(to bottom, #71001c, #a5455b);
+	-webkit-border-radius: 8;
+	-moz-border-radius: 8;
+	border-radius: 8px;
+	color: #ffffff;
+	font-size: 20px;
+	padding: 0.7rem;
+	text-decoration: none;
+	cursor: pointer;
+	border: none;
+}
+
+.logbutton:hover {
+	background: #d40035;
+	background-image: -webkit-linear-gradient(top, #d40035, #eb6786);
+	background-image: -moz-linear-gradient(top, #d40035, #eb6786);
+	background-image: -ms-linear-gradient(top, #d40035, #eb6786);
+	background-image: -o-linear-gradient(top, #d40035, #eb6786);
+	background-image: linear-gradient(to bottom, #d40035, #eb6786);
+	text-decoration: none;
+}
+
+.image {
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 1000px) {
+	.form {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.leftform {
+		width: 100%;
+		min-height: 50vh;
+	}
+
+	.rightform {
+		width: 100%;
+		min-height: 30vh;
+	}
+
+	.inputform {
+		width: 100%;
+	}
+}

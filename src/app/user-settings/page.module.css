@@ -1,0 +1,23 @@
+.main {
+	min-height: 100vh;
+	height: 100%;
+	width: 100vw;
+	background-image: linear-gradient(
+		to right bottom,
+		#ff2e63,
+		#ff4178,
+		#ff528c,
+		#ff629f,
+		#ff71b1,
+		#ff76b4,
+		#ff7cb8,
+		#ff81bb,
+		#ff7eb3,
+		#ff7baa,
+		#ff79a2,
+		#ff7799
+	);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

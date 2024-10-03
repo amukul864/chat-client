@@ -1,0 +1,71 @@
+.input {
+	height: 3rem;
+	width: 35vw;
+	margin: 1rem 0 0 0;
+	border: 2px black solid;
+	border-radius: 8px;
+	padding: 1rem;
+	font-size: large;
+	background: transparent;
+	color: black;
+}
+
+.input::placeholder {
+	color: black;
+	text-align: center;
+}
+
+.logbutton {
+	width: 25vw;
+	margin: 1rem 0 0.5rem 0;
+	font-size: large;
+	background: #71001c;
+	background-image: -webkit-linear-gradient(top, #71001c, #a5455b);
+	background-image: -moz-linear-gradient(top, #71001c, #a5455b);
+	background-image: -ms-linear-gradient(top, #71001c, #a5455b);
+	background-image: -o-linear-gradient(top, #71001c, #a5455b);
+	background-image: linear-gradient(to bottom, #71001c, #a5455b);
+	-webkit-border-radius: 8;
+	-moz-border-radius: 8;
+	border-radius: 8px;
+	color: #ffffff;
+	font-size: 20px;
+	padding: 0.7rem;
+	text-decoration: none;
+	cursor: pointer;
+	border: none;
+}
+
+.logbutton:hover {
+	background: #d40035;
+	background-image: -webkit-linear-gradient(top, #d40035, #eb6786);
+	background-image: -moz-linear-gradient(top, #d40035, #eb6786);
+	background-image: -ms-linear-gradient(top, #d40035, #eb6786);
+	background-image: -o-linear-gradient(top, #d40035, #eb6786);
+	background-image: linear-gradient(to bottom, #d40035, #eb6786);
+	text-decoration: none;
+}
+
+.text {
+	margin-top: 0.3rem;
+}
+
+.flex {
+	display: flex;
+	align-items: baseline;
+	justify-content: space-evenly;
+}
+
+.checkbox {
+	margin-right: 0.5rem;
+}
+
+@media only screen and (max-width: 1000px) {
+	.input {
+		width: 70vw;
+	}
+
+	.logbutton {
+		width: 50vw;
+	}
+}

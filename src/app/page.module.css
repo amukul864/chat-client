@@ -1,0 +1,157 @@
+.main {
+	min-height: 100vh;
+	width: 100vw;
+	background-image: linear-gradient(
+		to right bottom,
+		#ff2e63,
+		#ff4178,
+		#ff528c,
+		#ff629f,
+		#ff71b1,
+		#ff76b4,
+		#ff7cb8,
+		#ff81bb,
+		#ff7eb3,
+		#ff7baa,
+		#ff79a2,
+		#ff7799
+	);
+	background-repeat: repeat;
+	display: flex;
+	align-items: center;
+}
+
+.sidebar {
+	width: 18%;
+	height: 100vh;
+	background-image: linear-gradient(
+		to bottom,
+		#ff7799,
+		#ff89a6,
+		#ff9ab2,
+		#ffabbf,
+		#ffbbcb
+	);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+	padding-bottom: 2rem;
+}
+
+.vertical {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.chats {
+	height: 2rem;
+	width: 100%;
+	border: none;
+	margin-bottom: 2px;
+	font-size: large;
+	font-weight: 800;
+	background-color: transparent;
+	color: navy;
+	text-align: left;
+	padding-left: 0.7rem;
+	display: flex;
+	align-items: center;
+}
+
+.chats:hover {
+	background-color: rgb(255, 154, 178, 0.5);
+	cursor: pointer;
+}
+
+.horizontalrule {
+	height: 1px;
+	background-color: rgb(255, 0, 0);
+	width: 90%;
+	margin: 1rem 0 1.5rem 0;
+}
+
+.profiletext {
+	padding-left: 0.5rem;
+	font-weight: 800;
+	margin-left: 4px;
+}
+
+.profilepic {
+	border-radius: 50%;
+}
+
+.chatsection {
+	width: 82%;
+	height: 100vh;
+}
+
+.profileinfo {
+	height: 11vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	background-image: linear-gradient(
+		to right,
+		#ff2e63,
+		#ff4672,
+		#ff5880,
+		#ff698d,
+		#ff789a
+	);
+	position: fixed;
+	top: 0;
+	z-index: 3;
+}
+
+.profiletext2 {
+	padding-left: 0.5rem;
+	font-weight: 900;
+	margin-left: 1rem;
+	font-size: x-large;
+}
+
+.profilepic2 {
+	border-radius: 50%;
+	margin-left: 1rem;
+}
+
+.image {
+	cursor: pointer;
+}
+
+.button {
+	height: 2rem;
+	width: 10vw;
+	margin: 4px 0 0 0.7rem;
+	font-size: 14px;
+	background: #71001c;
+	background-image: -webkit-linear-gradient(top, #71001c, #a5455b);
+	background-image: -moz-linear-gradient(top, #71001c, #a5455b);
+	background-image: -ms-linear-gradient(top, #71001c, #a5455b);
+	background-image: -o-linear-gradient(top, #71001c, #a5455b);
+	background-image: linear-gradient(to bottom, #71001c, #a5455b);
+	-webkit-border-radius: 4;
+	-moz-border-radius: 4;
+	border-radius: 4px;
+	color: #ffffff;
+	padding: 4px;
+	text-decoration: none;
+	cursor: pointer;
+	border: none;
+}
+
+@media only screen and (max-width: 1000px) {
+	.chatsection {
+		width: 55%;
+	}
+
+	.sidebar {
+		width: 45%;
+	}
+
+	.button {
+		width: 40%;
+	}
+}

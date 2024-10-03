@@ -1,0 +1,251 @@
+.main {
+	min-height: 100vh;
+	width: 100vw;
+	background-image: linear-gradient(
+		to right bottom,
+		#ff2e63,
+		#ff4178,
+		#ff528c,
+		#ff629f,
+		#ff71b1,
+		#ff76b4,
+		#ff7cb8,
+		#ff81bb,
+		#ff7eb3,
+		#ff7baa,
+		#ff79a2,
+		#ff7799
+	);
+	background-repeat: repeat;
+	display: flex;
+	align-items: center;
+}
+
+.sidebar {
+	width: 18%;
+	height: 100vh;
+	background-image: linear-gradient(
+		to bottom,
+		#ff7799,
+		#ff89a6,
+		#ff9ab2,
+		#ffabbf,
+		#ffbbcb
+	);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+	padding-bottom: 2rem;
+}
+
+.vertical {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.chats {
+	height: 2rem;
+	width: 100%;
+	border: none;
+	margin-bottom: 2px;
+	font-size: large;
+	font-weight: 800;
+	background-color: transparent;
+	color: navy;
+	text-align: left;
+	padding-left: 0.7rem;
+	display: flex;
+	align-items: center;
+}
+
+.chats:hover {
+	background-color: rgb(255, 154, 178, 0.5);
+	cursor: pointer;
+}
+
+.horizontalrule {
+	height: 1px;
+	background-color: rgb(255, 0, 0);
+	width: 90%;
+	margin: 1rem 0 1.5rem 0;
+}
+
+.profiletext {
+	padding-left: 0.5rem;
+	font-weight: 800;
+	margin-left: 4px;
+}
+
+.profilepic {
+	border-radius: 50%;
+}
+
+.chatsection {
+	width: 82%;
+	height: 100vh;
+	/* display: flex;
+	flex-direction: column;
+	align-items: center; */
+}
+
+.profileinfo {
+	height: 11vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	background-image: linear-gradient(
+		to right,
+		#ff2e63,
+		#ff4672,
+		#ff5880,
+		#ff698d,
+		#ff789a
+	);
+    position: fixed;
+    top: 0;
+    z-index: 3;
+}
+
+.profiletext2 {
+	padding-left: 0.5rem;
+	font-weight: 900;
+	margin-left: 1rem;
+	font-size: x-large;
+}
+
+.profilepic2 {
+	border-radius: 50%;
+	margin-left: 1rem;
+}
+
+.writemessage {
+	height: 10vh;
+	width: 82vw;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	background-image: linear-gradient(
+		to right,
+		#ff789a,
+		#ff698d,
+		#ff5880,
+		#ff4672,
+		#ff2e63
+	);
+    position: fixed;
+    bottom: 0;
+    z-index: 3;
+}
+
+.input {
+	height: 2.5rem;
+	width: 80%;
+	border: 2px black solid;
+	border-radius: 1.3rem;
+	font-size: large;
+	background: transparent;
+	color: black;
+	margin-left: 2rem;
+	padding: 1rem 2rem;
+}
+
+.input::placeholder {
+	color: black;
+	text-align: center;
+}
+
+.sendpic {
+	margin-left: 1rem;
+	margin-right: 2rem;
+	margin-bottom: 2px;
+	cursor: pointer;
+}
+
+.messages {
+    position: relative;
+    height: 89vh;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+    flex-wrap: nowrap;
+    overflow-y: auto;
+    padding: 0 0 10vh 0;
+	margin-top: 11vh;
+	bottom: 0;
+	align-items: center;
+}
+
+.sent {
+    width: 100%;
+    padding: 1rem 0 0 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row-reverse;
+}
+
+.recieved {
+    width: 100%;
+    padding: 1rem 0 0 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.senttext {
+    padding: 0.5rem 1.5rem 0.25rem 1.5rem;
+    margin: 0 0.5rem;
+    background-color: rgb(0, 0, 255, 0.3);
+    max-width: 70%;
+    border-radius: 2rem;
+    color: black;
+    font-weight: 500;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+.recievedtext {
+    padding: 0.5rem 1.5rem 0.25rem 1.5rem;
+    margin: 0 0.5rem;
+    background-color: rgb(0, 255, 0, 0.3);
+    max-width: 70%;
+    border-radius: 2rem;
+    color: black;
+    font-weight: 500;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+.texttime {
+	font-size: small;
+	padding-top: 0.25rem;
+	color: white;
+}
+
+.profilepicsent {
+	border-radius: 50%;
+	margin: 0 1rem;
+    border: 2px solid rgb(0, 0, 100);
+	padding: 2px;
+}
+
+.profilepicrecieved {
+	border-radius: 50%;
+	margin: 0 1rem;
+    border: 2px solid rgb(0, 100, 0);
+	padding: 2px;
+}
+
+.chatdate {
+	margin: 1rem 0 0 0;
+	padding: 0.25rem 0.5rem;
+	border-radius: 0.5rem;
+	background-color: rgb(100, 100, 100, 0.3);
+	font-weight: 500;
+	font-size: medium;
+}
