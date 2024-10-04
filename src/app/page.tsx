@@ -29,12 +29,8 @@ const HomePage = () => {
 							router.push("/");
 						}}
 					/>
-					<button className={styles.chats}>Chats</button>
-					<button className={styles.chats}>Groups</button>
 				</div>
 				<div className={styles.vertical}>
-					<button className={styles.chats}>Random Chats</button>
-					<button className={styles.chats}>Random Rooms</button>
 					<div className={styles.horizontalrule}></div>
 					<button
 						className={styles.chats}

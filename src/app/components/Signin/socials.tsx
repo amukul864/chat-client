@@ -4,10 +4,10 @@ import styles from "./socials.module.css";
 
 const socials = () => {
 	const loginwithgoogle = () => {
-		window.open("http://localhost:4000/auth/google/callback", "_self");
+		window.open(`${process.env.NEXT_PUBLIC_API_URL}/auth/google/callback`, "_self");
 	};
 	const loginwithgithub = () => {
-		window.open("http://localhost:4000/auth/github/callback", "_self");
+		window.open(`${process.env.NEXT_PUBLIC_API_URL}/auth/github/callback`, "_self");
 	};
 
 	return (
