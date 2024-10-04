@@ -5,7 +5,7 @@ const nextConfig = {
 		styledComponents: true,
 	},
 	images: {
-		domains: ["lh3.googleusercontent.com"],
+		domains: ["lh3.googleusercontent.com","chat-server-i726.onrender.com","avatars.githubusercontent.com"],
 	},
 };
 
